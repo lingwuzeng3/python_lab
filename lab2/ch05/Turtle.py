@@ -13,6 +13,7 @@ class OlympicRingsWidget(QWidget):
         painter = QPainter(self)
         painter.setRenderHint(QPainter.Antialiasing)  # 设置抗锯齿
 
+
         # 定义五环的颜色
         colors = [QColor("blue"), QColor("black"), QColor("red"), QColor("yellow"), QColor("green")]
 
